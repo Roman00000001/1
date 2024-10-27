@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аниме</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="anime-title">Название Аниме</h1>
+        <div class="anime-info">
+            <img id="anime-image" src="" alt="Аниме Картинка" class="anime-image">
+            <p id="anime-description" class="anime-description"></p>
+        </div>
+        <div id="episode-selection" class="episode-list">
+            <h2>Выбери Серию</h2>
+            <div class="episode-buttons">
+                <!-- Кнопки для выбора серии будут добавлены через JS -->
+            </div>
+        </div>
+        <div class="video-container">
+            <video id="anime-video" controls width="600">
+                <source src="" type="video/mp4">
+                Ваш браузер не поддерживает видео.
+            </video>
+        </div>
+        <p id="selection-result" class="result"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
